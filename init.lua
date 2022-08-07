@@ -1,5 +1,5 @@
 return {
- 
+ -- --------------------- función para obligar a llamar el menu al cerrar el buffer ---------------
   polish = function()
     local function alpha_on_bye(cmd)
       local bufs = vim.fn.getbufinfo { buflisted = true }
